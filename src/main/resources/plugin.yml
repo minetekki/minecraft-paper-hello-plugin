@@ -1,0 +1,10 @@
+name: MinecraftPlugin
+version: '${version}'
+main: de.minetekki.minecraftplugin.MinecraftPlugin
+api-version: 1.19
+
+commands:
+  hallo:
+    description: "Say hello to yourself"
+    usage: "/hallo"
+    aliases: [hallo,hello]
